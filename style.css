@@ -1,0 +1,65 @@
+canvas{
+    
+    margin-top: 50px;
+    animation-name:MyAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.btn-success:hover{
+background-color: red;
+}
+
+@keyframes MyAnimation{
+    from{
+        background-color: white;
+    border-style: solid;
+    border-color: black;
+    font-style: italic;
+    border-width: 10px;
+    border-radius: 20px;
+
+        box-shadow:1px 1px 38px rgb(255, 234, 0);
+    }
+    to{
+        background-color: rgb(218, 225, 142);
+        border-style: ridge;
+        border-color: white;
+        border-width: 0px;
+        border-radius: 0px;
+    
+        box-shadow:1px 1px 38px yellow;
+    }
+}
+
+h3{
+    animation-name:MyAnimation2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes MyAnimation2 {
+    from{
+        font-size: 30px;
+        font-weight: bold;
+        
+        color: rgb(255, 255, 255);
+        border-width: 20px;
+        border-radius: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Shizuru', cursive;
+
+    }
+
+    to{
+        font-size: 15px;
+        font-weight: lighter;
+        
+        color: rgb(8, 0, 255);
+        border-width: 0px;
+        border-radius: 0px;
+      ;
+
+    }
+}
